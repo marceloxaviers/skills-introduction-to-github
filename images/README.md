@@ -1,18 +1,18 @@
 # 🚀 Deploy do Projeto SSAS Tabular - DWLeme
 
-Este repositório contém o projeto do modelo Tabular `DWLeme`, desenvolvido no Visual Studio/SQL Server Data Tools (SSDT) para processamento e análise de dados.
+Este repositório contém o projeto do modelo do Cubo Tabular `DWLeme`, desenvolvido no Visual Studio/SQL Server Data Tools (SSDT) para processamento e análise de dados.
 
 ## 🌐 Ambientes
 
 - **Homologação**
-  - Servidor: `SRV-HMG-AS`
-  - Database: `DWLeme_HMG`
+  - Servidor: `10.1.100.203\SSASTB`
+  - Database: `DWLeme`
   - Conexão: `DWFLeme_Snapshot_HMG`
 
 - **Produção**
-  - Servidor: `SRV-PRD-AS`
+  - Servidor: `10.1.100.167\SSASTB`
   - Database: `DWLeme`
-  - Conexão: `DWFLeme_Snapshot`
+  - Conexão: `DWFLeme_Snapshot_HMG`
 
 ---
 
@@ -27,6 +27,8 @@ Este repositório contém o projeto do modelo Tabular `DWLeme`, desenvolvido no 
 ## 📦 Etapas do Deploy
 
 ### 1. Abra o projeto `.smproj` no Visual Studio
+
+### 1. Abra
 
 ```bash
 cd DWLemeTabular
